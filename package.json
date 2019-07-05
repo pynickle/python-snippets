@@ -1,0 +1,45 @@
+{
+    "name": "useful-python-snippets",
+    "displayName": "python-snippets",
+    "description": "have efficient coding experience for python",
+    "version": "0.0.1",
+    "publisher": "pynickle",
+    "author": "nick",
+    "repository": "https://github.com/pynickle/python-snippets",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "python",
+        "py",
+        "snippets",
+        "code"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/statement.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/builtin_func.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/always.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/standard_libraries.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/string_method.json"
+            }
+        ]
+    }
+}
